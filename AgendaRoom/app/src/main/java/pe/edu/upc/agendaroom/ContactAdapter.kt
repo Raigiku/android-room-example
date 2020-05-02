@@ -1,7 +1,5 @@
 package pe.edu.upc.agendaroom
 
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,7 +24,7 @@ class ContactAdapter(
         prototype.bind(
             contacts[position],
             itemClickListener,
-            DeleteButtonListener(contacts, this, position)
+            DeleteButtonListener(this, contacts, contacts[position].id!!)
         )
     }
 
