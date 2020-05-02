@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AgendaRoom</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_telephone">Teléfono</string>
+</resources>
